@@ -1,0 +1,84 @@
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700|Roboto+Mono:400,700';
+
+h1, h3, footer {
+  line-height: 1.3;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  padding-top: 100vh;
+  background-color: #fff;
+}
+
+.parallax {
+  position: fixed;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  background-image: linear-gradient(#52edc7, #5ac8fb);
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: -1;
+}
+
+.parallax h3 { color: #fff; }
+.parallax h1 { color: #fff; margin-bottom: 15px; }
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+h3 { font-size: 24px; }
+
+.container {
+  background-color: #fff;
+  padding: 10px 20px;
+  margin-bottom: 70px;
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.26), 0 -3px 7px 0 rgba(0, 0, 0, 0.26);
+}
+
+section:not(.parallax) {
+  margin: 25px auto;
+  width: calc(100% - 60px);
+  max-width: 890px;
+  background-color: #fff;
+}
+
+.border {
+  width: 100%;
+  height: 1px;
+  margin: 15px 0;
+  background-color: #BDBDBD;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  background-image: linear-gradient(#52edc7, #5ac8fb);
+  background-attachment: fixed;
+  color: #fff;
+  font-size: 17px;
+  z-index: -1;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.love {
+  background-image: url(http://s3.jonathano.com/casey/heart-emoji.png);
+  background-size: cover;
+  width: 19px;
+  height: 19px;
+  margin: 0 5px;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
